@@ -151,6 +151,10 @@ body {
   color: var(--accent-text-color);
 }
 
+.title--wide {
+  letter-spacing: 17px;
+}
+
 .title--accent {
   color: var(--title-accent);
 }
@@ -171,6 +175,10 @@ body {
 .greeting .title {
   width: 440px;
   margin-bottom: 21px;
+}
+
+.text {
+  margin: 0;
 }
 
 .greeting .text {
@@ -220,4 +228,29 @@ body {
 .btn--invert {
   color: var(--accent-text-color);
   background-color: #ffffff;
+}
+
+.about-me {
+  margin-bottom: 301px;
+  background-color: rgba(67, 186, 253, 0.06);
+}
+
+.about-me .page-container {
+  padding: 206px 46px 217px;
+  background-image: url("assets/img/vr.png");
+  background-repeat: no-repeat;
+  background-size: 925px 925px;
+  background-position: right;
+}
+
+.about-me-content {
+  width: 415px;
+}
+
+.about-me .title {
+  margin-bottom: 14px;
+}
+
+.about-me .text {
+  margin-bottom: 26px;
 }
