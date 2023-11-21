@@ -285,3 +285,64 @@ body {
   flex-wrap: wrap;
   gap: 200px
 }
+
+.contact-me {
+  margin-bottom: 208px;
+  background: rgba(67, 186, 253, 0.06);
+}
+
+.contact-me .page-container {
+  padding: 66px 66px 190px;
+  background-image: url("assets/img/man-with-laptop.png");
+  background-repeat: no-repeat;
+  background-size: 958px 958px;
+  background-position: right -105px center;
+}
+
+.contact-me .title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-me .text {
+  margin-bottom: 160px;
+  text-align: center;
+}
+
+.contact-form {
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form .input {
+  margin-bottom: 80px;
+  width: 653px;
+  padding: 22px 50px;
+  font: inherit;
+  font-size: 32px;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contact-form .input::placeholder {
+  color: #000000;
+}
+
+.contact-form textarea.input {
+  margin-bottom: 50px;
+  resize: none;
+}
+
+.contact-form .input:last-child {
+  margin-bottom: 0;
+}
+
+.contact-form .input--btn {
+  min-width: 325px;
+  width: fit-content;
+}
+
+
