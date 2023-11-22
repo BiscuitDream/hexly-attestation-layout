@@ -8,11 +8,11 @@
   <body>
     <!--TODO уточнить у преподавателей куда лого. В нав или просто в хеадер-->
     <!--TODO Readme нужен?-->
+<!--    TODO список на соцсети нужен?-->
 
     <header class="page-container page-header">
       <nav class="header-nav">
-<!--        // TODO тут ссылка в лого-->
-        <p class="logo">UniDesign</p>
+        <a class="logo" href="#">UniDesign</a>
         <ul class="header-nav-list">
           <li>
             <a href="">About Me</a>
@@ -110,55 +110,57 @@
       </section>
     </main>
 
-    <footer>
-      <div>
-        <p>UniDesign</p>
-        <form action="">
-          <p>
-            <label for="footer-email">Email</label>
-            <input type="email" name="" id="footer-email">
-          </p>
-          <button>Subscribe</button>
-        </form>
-      </div>
-      <div>
-        <h3>Platform</h3>
-        <ul>
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">Overview</a>
-          </li>
-          <li>
-            <a href="">Pricing</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Help</h3>
-        <ul>
-          <li>
-            <a href="">How It Works?</a>
-          </li>
-          <li>
-            <a href="">Pay?</a>
-          </li>
-          <li>
-            <a href="">Question?</a>
-          </li>
-          <li>
-            <a href="">Contact?</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Contact</h3>
-        <p>(+000) 1234-6789</p>
-        <p>116 Archlor Road Broadlaband, NewYork (NYC) 1205</p>
+    <footer class="page-footer">
+      <div class="page-container">
+        <div class="footer-container">
+          <div>
+            <a class="logo logo--wide" href="#">UniDesign</a>
+            <form class="subscribe-form" action="">
+              <label class="visually-hidden" for="footer-email">Email</label>
+              <input class="subscribe-email" type="email" name="" id="footer-email" placeholder="Email">
+              <button class="subscribe-btn">Subscribe</button>
+            </form>
+          </div>
+          <div>
+            <h3 class="footer-nav-title">Platform</h3>
+            <ul class="footer-nav-list">
+              <li>
+                <a class="footer-nav-link" href="">Home</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="">Overview</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="">Pricing</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="">About</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-nav-title">Help</h3>
+            <ul class="footer-nav-list">
+              <li>
+                <a class="footer-nav-link" href="">How It Works?</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="">Pay?</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="">Question?</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="">Contact?</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-nav-title">Contact</h3>
+            <p class="footer-address">(+000) 1234-6789</p>
+            <p class="footer-address">116 Archlor Road Broadlaband, NewYork (NYC) 1205</p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

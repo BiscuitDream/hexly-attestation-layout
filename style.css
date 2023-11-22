@@ -3,6 +3,8 @@
   --accent-text-color-darken: #0E0578;
   --accent-text-color: #2000E7;
   --title-accent: #F2BD00;
+  --bgc-blue: rgba(67, 186, 253, 0.06);
+  --bgc-beige: rgba(255, 214, 150, 0.20);;
 }
 
 @font-face {
@@ -110,10 +112,16 @@ body {
 }
 
 .logo {
+  width: fit-content;
   margin: 0;
+  display: block;
   font-size: 48px;
   font-weight: 700;
   color: var(--accent-text-color-darken);
+}
+
+.logo--wide {
+  letter-spacing: 17px;
 }
 
 .header-nav-list {
@@ -236,7 +244,7 @@ body {
 
 .about-me {
   margin-bottom: 301px;
-  background-color: rgba(67, 186, 253, 0.06);
+  background-color: var(--bgc-blue);
 }
 
 .about-me .page-container {
@@ -261,7 +269,7 @@ body {
 
 .projects {
   margin-bottom: 272px;
-  background-color: rgba(255, 214, 150, 0.20);
+  background-color: var(--bgc-beige);
 }
 
 .projects .page-container {
@@ -324,7 +332,7 @@ body {
   font-size: 32px;
   background-color: #ffffff;
   border: none;
-  box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 13px 21px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .contact-form .input::placeholder {
@@ -345,4 +353,76 @@ body {
   width: fit-content;
 }
 
+.page-footer {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: normal;
+  font-style: normal;
+  font-family: "Jost", "Arial", sans-serif;
+  background-color: var(--bgc-beige);
+}
 
+.page-footer .page-container {
+  padding: 132px 48px 50px 60px;
+}
+
+.footer-container {
+  padding-bottom: 100px;
+  display: flex;
+  gap: 120px;
+  border-bottom: 3px solid #000000;
+}
+
+.page-footer .logo {
+  margin-bottom: 50px;
+}
+
+.subscribe-form {
+  display: flex;
+  margin-left: -35px;
+}
+
+.subscribe-email {
+  width: 323px;
+  padding: 24px 80px 28px 33px;
+  font: inherit;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 30px;
+}
+
+.subscribe-email::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  margin-left: -60px;
+  padding: 24px 16px 28px;
+  font: inherit;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #F965FC;
+  border: none;
+  border-radius: 30px;
+}
+
+.footer-nav-title {
+  margin: 0 0 36px;
+  font: inherit;
+  font-weight: 700;
+}
+
+.footer-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.footer-nav-link {
+  color: #000000;
+}
