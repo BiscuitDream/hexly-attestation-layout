@@ -6,25 +6,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!--TODO уточнить у преподавателей куда лого. В нав или просто в хеадер-->
-    <!--TODO Readme нужен?-->
-<!--    TODO список на соцсети нужен?-->
-
     <header class="page-container page-header">
       <nav class="header-nav">
-        <a class="logo" href="#">UniDesign</a>
+        <a class="logo" href="#!">UniDesign</a>
         <ul class="header-nav-list">
           <li>
-            <a href="">About Me</a>
+            <a href="#about-me">About Me</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a href="#contacts">Contacts</a>
           </li>
           <li>
-            <a href="">Hire Me</a>
+            <a href="#!">Hire Me</a>
           </li>
         </ul>
       </nav>
@@ -38,8 +34,8 @@
           <p class="title">Hi , I am Steven UI/UX <span class="title--accent">Designer</span></p>
           <p class="text">Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat est sed turpis hoc equit</p>
           <div class="buttons">
-            <a class="btn" href="">Hire Me</a>
-            <a class="btn btn--invert" href="">My Project</a>
+            <a class="btn" href="#!">Hire Me</a>
+            <a class="btn btn--invert" href="#projects">My Project</a>
           </div>
         </div>
         <p class="my-portrait-wrapper">
@@ -47,17 +43,17 @@
         </p>
       </section>
 
-      <section class="about-me">
+      <section class="about-me" id="about-me">
         <div class="page-container">
           <div class="about-me-content">
             <h2 class="title title---more-wide">About Me</h2>
             <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .</p>
-            <a class="btn" href="">Hire Me</a>
+            <a class="btn" href="#!">Hire Me</a>
           </div>
         </div>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="page-container">
           <h2 class="title title--wide">My Projects</h2>
           <p class="text">Lorem Ipsum is simply dummy text of the printing</p>
@@ -93,11 +89,11 @@
         </div>
       </section>
 
-      <section class="contact-me">
+      <section class="contact-me" id="contacts">
         <div class="page-container">
           <h2 class="title title---more-wide">Contact Me</h2>
           <p class="text">Lorem Ipsum is simply dummy text of the printing</p>
-          <form class="contact-form" action="">
+          <form class="contact-form">
             <label class="visually-hidden" for="email">Email</label>
             <input class="input" id="email" type="email" placeholder="Email">
             <label class="visually-hidden" for="password">Password</label>
@@ -114,10 +110,10 @@
       <div class="page-container">
         <div class="footer-container">
           <div>
-            <a class="logo logo--wide" href="#">UniDesign</a>
-            <form class="subscribe-form" action="">
+            <a class="logo logo--wide" href="#!">UniDesign</a>
+            <form class="subscribe-form">
               <label class="visually-hidden" for="footer-email">Email</label>
-              <input class="subscribe-email" type="email" name="" id="footer-email" placeholder="Email">
+              <input class="subscribe-email" type="email" id="footer-email" placeholder="Email">
               <button class="subscribe-btn">Subscribe</button>
             </form>
           </div>
@@ -125,16 +121,16 @@
             <h3 class="footer-nav-title">Platform</h3>
             <ul class="footer-nav-list">
               <li>
-                <a class="footer-nav-link" href="">Home</a>
+                <a class="footer-nav-link" href="#!">Home</a>
               </li>
               <li>
-                <a class="footer-nav-link" href="">Overview</a>
+                <a class="footer-nav-link" href="#!">Overview</a>
               </li>
               <li>
-                <a class="footer-nav-link" href="">Pricing</a>
+                <a class="footer-nav-link" href="#!">Pricing</a>
               </li>
               <li>
-                <a class="footer-nav-link" href="">About</a>
+                <a class="footer-nav-link" href="#!">About</a>
               </li>
             </ul>
           </div>
@@ -142,16 +138,16 @@
             <h3 class="footer-nav-title">Help</h3>
             <ul class="footer-nav-list">
               <li>
-                <a class="footer-nav-link" href="">How It Works?</a>
+                <a class="footer-nav-link" href="#!">How&nbsp;It&nbsp;Works?</a>
               </li>
               <li>
-                <a class="footer-nav-link" href="">Pay?</a>
+                <a class="footer-nav-link" href="#!">Pay?</a>
               </li>
               <li>
-                <a class="footer-nav-link" href="">Question?</a>
+                <a class="footer-nav-link" href="#!">Question?</a>
               </li>
               <li>
-                <a class="footer-nav-link" href="">Contact?</a>
+                <a class="footer-nav-link" href="#!">Contact?</a>
               </li>
             </ul>
           </div>
@@ -165,26 +161,26 @@
           <p class="copyright">CopyRighted 2020-2023   All Rights Reserved.</p>
           <ul class="social-list">
             <li>
-              <span class="visually-hidden">youtube</span>
               <a href="#youtube">
+                <span class="visually-hidden">youtube</span>
                 <img src="assets/img/youtube.svg" alt="youtube logo">
               </a>
             </li>
             <li>
-              <span class="visually-hidden">instagram</span>
               <a href="#instagram">
+                <span class="visually-hidden">instagram</span>
                 <img src="assets/img/instagram.svg" alt="instagram logo">
               </a>
             </li>
             <li>
-              <span class="visually-hidden">facebook</span>
               <a href="#facebook">
+                <span class="visually-hidden">facebook</span>
                 <img src="assets/img/facebook.svg" alt="facebook logo">
               </a>
             </li>
             <li>
-              <span class="visually-hidden">linkedin</span>
               <a href="#linkedin">
+                <span class="visually-hidden">linkedin</span>
                 <img src="assets/img/linkedin.svg" alt="linkedin logo">
               </a>
             </li>
